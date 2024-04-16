@@ -1,0 +1,38 @@
+.page-header {
+  margin-block-end: 3rem;
+}
+
+section {
+  border-block-end: 1px solid hsl(0deg, 50%, 0%);
+  margin-block-end: 3rem;
+  padding-block-end: 3rem;
+}
+
+section:last-child {
+  border-block-end: initial;
+  margin-block-end: initial;
+  padding-block-end: initial;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+}
+
+.todo .controls {
+  margin-inline-start: auto;
+  display: flex;
+  gap: 0.25em;
+}
+
+button * {
+  pointer-events: none;
+}
+
+.todo-title {
+  margin-inline-end: 0.25em;
+}
+
+/* .done {
+  background-color: green;
+} */
